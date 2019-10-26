@@ -333,10 +333,10 @@
   //
 
   #ifndef X_SERIAL_TX_PIN
-    #define X_SERIAL_TX_PIN  5
+    #define X_SERIAL_TX_PIN  31
   #endif
   #ifndef X_SERIAL_RX_PIN
-    #define X_SERIAL_RX_PIN  11
+    #define X_SERIAL_RX_PIN  53
   #endif
   #ifndef X2_SERIAL_TX_PIN
     #define X2_SERIAL_TX_PIN -1
@@ -346,10 +346,10 @@
   #endif
 
   #ifndef Y_SERIAL_TX_PIN
-    #define Y_SERIAL_TX_PIN  6
+    #define Y_SERIAL_TX_PIN  33
   #endif
   #ifndef Y_SERIAL_RX_PIN
-    #define Y_SERIAL_RX_PIN  12
+    #define Y_SERIAL_RX_PIN  51
   #endif
   #ifndef Y2_SERIAL_TX_PIN
     #define Y2_SERIAL_TX_PIN -1
@@ -359,23 +359,23 @@
   #endif
 
   #ifndef Z_SERIAL_TX_PIN
-    #define Z_SERIAL_TX_PIN  42
+    #define Z_SERIAL_TX_PIN  49
   #endif
   #ifndef Z_SERIAL_RX_PIN
-    #define Z_SERIAL_RX_PIN  65
+    #define Z_SERIAL_RX_PIN  50
   #endif
   #ifndef Z2_SERIAL_TX_PIN
-    #define Z2_SERIAL_TX_PIN -1
+    #define Z2_SERIAL_TX_PIN 41
   #endif
   #ifndef Z2_SERIAL_RX_PIN
-    #define Z2_SERIAL_RX_PIN -1
+    #define Z2_SERIAL_RX_PIN 52
   #endif
 
   #ifndef E0_SERIAL_TX_PIN
-    #define E0_SERIAL_TX_PIN 37
+    #define E0_SERIAL_TX_PIN 6
   #endif
   #ifndef E0_SERIAL_RX_PIN
-    #define E0_SERIAL_RX_PIN 15
+    #define E0_SERIAL_RX_PIN 12
   #endif
   #ifndef E1_SERIAL_TX_PIN
     #define E1_SERIAL_TX_PIN -1
