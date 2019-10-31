@@ -81,7 +81,7 @@
 #define SDPOWER_PIN            -1
 #define SDSS               53
 #define LED_PIN            13
-#define Z_MIN_PROBE_PIN     2
+#define Z_MIN_PROBE_PIN    27
 #define FIL_RUNOUT_PIN     19
 
 // EndStops
