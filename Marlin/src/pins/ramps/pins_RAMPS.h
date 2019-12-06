@@ -133,11 +133,22 @@
   #define Y_CS_PIN         49
 #endif
 
+// #define Y2_STEP_PIN        36
+// #define Y2_DIR_PIN         34
+// #define Y2_ENABLE_PIN      30
+
 #define Z_STEP_PIN         46
 #define Z_DIR_PIN          48
 #define Z_ENABLE_PIN       62
 #ifndef Z_CS_PIN
   #define Z_CS_PIN         40
+#endif
+
+#define Z2_STEP_PIN        36
+#define Z2_DIR_PIN         34
+#define Z2_ENABLE_PIN      30
+#ifndef Z2_CS_PIN
+  #define Z2_CS_PIN        -1
 #endif
 
 #define E0_STEP_PIN        26
@@ -147,12 +158,12 @@
   #define E0_CS_PIN        42
 #endif
 
-#define E1_STEP_PIN        36
-#define E1_DIR_PIN         34
-#define E1_ENABLE_PIN      30
-#ifndef E1_CS_PIN
-  #define E1_CS_PIN        44
-#endif
+// #define E1_STEP_PIN        -1
+// #define E1_DIR_PIN         -1
+// #define E1_ENABLE_PIN      -1
+// #ifndef E1_CS_PIN
+//   #define E1_CS_PIN        -1
+// #endif
 
 //
 // Temperature Sensors
@@ -322,10 +333,10 @@
   //
 
   #ifndef X_SERIAL_TX_PIN
-    #define X_SERIAL_TX_PIN  40
+    #define X_SERIAL_TX_PIN  31
   #endif
   #ifndef X_SERIAL_RX_PIN
-    #define X_SERIAL_RX_PIN  63
+    #define X_SERIAL_RX_PIN  53
   #endif
   #ifndef X2_SERIAL_TX_PIN
     #define X2_SERIAL_TX_PIN -1
@@ -335,10 +346,10 @@
   #endif
 
   #ifndef Y_SERIAL_TX_PIN
-    #define Y_SERIAL_TX_PIN  59
+    #define Y_SERIAL_TX_PIN  33
   #endif
   #ifndef Y_SERIAL_RX_PIN
-    #define Y_SERIAL_RX_PIN  64
+    #define Y_SERIAL_RX_PIN  51
   #endif
   #ifndef Y2_SERIAL_TX_PIN
     #define Y2_SERIAL_TX_PIN -1
@@ -348,23 +359,23 @@
   #endif
 
   #ifndef Z_SERIAL_TX_PIN
-    #define Z_SERIAL_TX_PIN  42
+    #define Z_SERIAL_TX_PIN  49
   #endif
   #ifndef Z_SERIAL_RX_PIN
-    #define Z_SERIAL_RX_PIN  65
+    #define Z_SERIAL_RX_PIN  50
   #endif
   #ifndef Z2_SERIAL_TX_PIN
-    #define Z2_SERIAL_TX_PIN -1
+    #define Z2_SERIAL_TX_PIN 41
   #endif
   #ifndef Z2_SERIAL_RX_PIN
-    #define Z2_SERIAL_RX_PIN -1
+    #define Z2_SERIAL_RX_PIN 52
   #endif
 
   #ifndef E0_SERIAL_TX_PIN
-    #define E0_SERIAL_TX_PIN 44
+    #define E0_SERIAL_TX_PIN 6
   #endif
   #ifndef E0_SERIAL_RX_PIN
-    #define E0_SERIAL_RX_PIN 66
+    #define E0_SERIAL_RX_PIN 12
   #endif
   #ifndef E1_SERIAL_TX_PIN
     #define E1_SERIAL_TX_PIN -1
