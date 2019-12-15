@@ -1415,7 +1415,7 @@
 #define LIN_ADVANCE
 #if ENABLED(LIN_ADVANCE)
   //#define EXTRA_LIN_ADVANCE_K // Enable for second linear advance constants
-  #define LIN_ADVANCE_K 1.0    // Unit: mm compression per 1mm/s extruder speed
+  #define LIN_ADVANCE_K 0.0    // Unit: mm compression per 1mm/s extruder speed
   //#define LA_DEBUG            // If enabled, this will generate debug information output over USB.
 #endif
 
@@ -1463,10 +1463,10 @@
   //#define MESH_MIN_Y MESH_INSET
   //#define MESH_MAX_X X_BED_SIZE - (MESH_INSET)
   //#define MESH_MAX_Y Y_BED_SIZE - (MESH_INSET)
-  #define MESH_MIN_X 25
-  #define MESH_MIN_Y 20
-  #define MESH_MAX_X X_BED_SIZE - (MESH_MIN_X)
-  #define MESH_MAX_Y Y_BED_SIZE - (MESH_MIN_Y)
+  #define MESH_MIN_X 0
+  #define MESH_MIN_Y 25
+  #define MESH_MAX_X 185
+  #define MESH_MAX_Y 205
 #endif
 
 /**
